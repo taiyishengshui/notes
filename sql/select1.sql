@@ -1,1 +1,1 @@
-ELECT * FROM `表名` WHERE 条件
+ELECT * FROM `tablename` WHERE 蘴iaojian
