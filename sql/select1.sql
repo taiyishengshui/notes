@@ -1,1 +1,1 @@
-ELECT * FROM `tablename` WHERE Ìtiaojian
+ELECT * FROM `tablename` WHERE tiaojian
