@@ -1,0 +1,1 @@
+ELECT * FROM `表名` WHERE 条件
