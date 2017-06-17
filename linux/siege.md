@@ -64,4 +64,29 @@ siege -V OR  siege --version
 | - ib.adnxs.com                   |||
 
 
+```
+Siege常用的参数有如下几个：
+
+-c 或者 --concurrent=NUM : 用于指定并发人数
+-r 或者 --reps=NUM       : 用于指定重复次数
+-d 或者 --delay=NUM      : 用于指定延迟时间
+-f 或者 --file=FILE      : 用于指定URL列表的文件，可以一次对多个路径进行测试
+-t 或者 --time=NUMm      : 用于指定测试持续时间。例如： -t10S (10秒)  -t5M(5分钟)  -t1H(1小时)
+-l 或者 --log[=FILE]     : 用于记录结果日志
+```
+
+```
+Transactions:		          30 hits        ## 完成处理数30
+Availability:		      100.00 %           ## 可用，成功率100%
+Elapsed time:		        4.67 secs        ## 耗时4.67秒
+Data transferred:	        0.07 MB          ## 数据传输0.07MB
+Response time:		        0.50 secs        ## 响应时间0.50秒
+Transaction rate:	        6.42 trans/sec   ## 每秒完成6.42个处理
+Throughput:		        0.01 MB/sec          ## 吞吐量，每秒传输0.01MB
+Concurrency:		        3.21             ## 实际最高并发连接数
+Successful transactions:          30         ## 成功完成处理30次
+Failed transactions:	           0         ## 失败0次
+Longest transaction:	        2.25         ## 每次传输所花最长时间
+Shortest transaction:	        0.37         ## 每次传输所花最短时间
+```
 
