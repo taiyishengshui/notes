@@ -23,7 +23,8 @@ sudo make install
 ```
 siege -V OR  siege --version
 ```
-查看版本信息和默认配置参数：
+查看版本信息和默认配置参数：  
+
 |参数名                            |值                  |中文备注           |
 |----------------------------------|--------------------------------|--------------------|
 |version:                          |4.0.2                           |版本号|
@@ -56,12 +57,11 @@ siege -V OR  siege --version
 |allow zero byte data:             |true                            ||
 |allow chunked encoding:           |true                            ||
 |upload unique files:              |true                            ||
-|no-follow:
- - ad.doubleclick.net
- - pagead2.googlesyndication.com
- - ads.pubsqrd.com
- - ib.adnxs.com
-
+|no-follow:                        |                                ||
+| - ad.doubleclick.net             | ||
+| - pagead2.googlesyndication.com  |||
+| - ads.pubsqrd.com                |||
+| - ib.adnxs.com                   |||
 
 
 
