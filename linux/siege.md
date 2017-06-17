@@ -89,4 +89,15 @@ Failed transactions:	           0         ## 失败0次
 Longest transaction:	        2.25         ## 每次传输所花最长时间
 Shortest transaction:	        0.37         ## 每次传输所花最短时间
 ```
+例子:
+压测并发5人，重复两次
+```
+siege -c5 -r2 http://www.bing.com
+```
+在此基础上增加持续时间，设置为5秒
+
+```
+siege -c5 -r2 -t5S http://www.bing.com
+```
+
 
