@@ -73,6 +73,7 @@ Siege常用的参数有如下几个：
 -f 或者 --file=FILE      : 用于指定URL列表的文件，可以一次对多个路径进行测试
 -t 或者 --time=NUMm      : 用于指定测试持续时间。例如： -t10S (10秒)  -t5M(5分钟)  -t1H(1小时)
 -l 或者 --log[=FILE]     : 用于记录结果日志
+
 ```
 
 ```
@@ -89,6 +90,23 @@ Failed transactions:	           0         ## 失败0次
 Longest transaction:	        2.25         ## 每次传输所花最长时间
 Shortest transaction:	        0.37         ## 每次传输所花最短时间
 ```
+```
+Transactions: siege对服务器的访问次数。如果页面发生了redirect，那么siege会将跳转过的请求算成是另一个transaction
+Availability: socket连接的成功率。算法是，如果页面发生了timeout,4xx,5xx，那么该请求算是失败请求，成功率就等于(所有请求-失败请求) / 总请求数
+Elapsed time: 所有请求耗费的时间
+Data transferred: 所有请求传输的数据量，包括请求的headers和content。所以这个数值可能比server端统计的数值要大一点
+Response time: 平均响应时间
+Transaction rate: Transactions / Elapsed time
+Throughput: 每秒平均传输的数据量
+Concurrency: 平均并发的请求数
+Successful transactions: 所有status code < 400的transactions数量
+Failed transactions: 所有status code >= 400的transactions数量
+Longest transaction: 最耗时的请求时间
+Shortest transaction: 最短单个请求时间
+```
+
+
+
 例子:
 压测并发5人，重复两次
 ```
