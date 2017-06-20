@@ -118,4 +118,15 @@ siege -c5 -r2 http://www.bing.com
 siege -c5 -r2 -t5S http://www.bing.com
 ```
 
+siege支持https
+```
+sudo apt-get install openssl
+sudo apt-get install libssl-dev
+./configure -with-ssl=./configure --with-ssl
+sudo make
+sudo make clean
+sudo make install
+```
+在安装前需要mack clean,否则https不生效，以下是搜索结果页  
+https://stackoverflow.com/questions/42367606/siege-https-error-https-requires-libssl
 
