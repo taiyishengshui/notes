@@ -122,6 +122,15 @@ siege支持https
 ```
 sudo apt-get install openssl
 sudo apt-get install libssl-dev
+```
+如果安装失败，需要运行以下命令  
+Could not get lock /var/lib/dbkg/lock
+```
+sudo mv /var/lib/dpkg/info /var/lib/dpkg/info.bak
+sudo mkdir /var/lib/dpkg/info
+sudo apt-get update
+```
+```
 ./configure -with-ssl=./configure --with-ssl
 sudo make
 sudo make clean
@@ -129,4 +138,6 @@ sudo make install
 ```
 在安装前需要mack clean,否则https不生效，以下是搜索结果页  
 https://stackoverflow.com/questions/42367606/siege-https-error-https-requires-libssl
+
+
 
