@@ -15,7 +15,7 @@ set encoding=prc
 在打开的界面中选择： apps->gedit-2->preferences->encodings 
 在右边的 auto_detected 和 shown_in_menu 上点右键编辑，点 add，分别加入GB2312(或者是GB18030）,并点 UP按钮移动到第一位。关闭，就可以在gedit中显示中文了.
 
-github
+github  
 1/为了让github能够识别是我们自己上传文件，需要创建ssh key  
 ```
 ssh-keygen -t rsa -C "your_email@youremail.com"
