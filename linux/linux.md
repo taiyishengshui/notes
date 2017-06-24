@@ -43,4 +43,52 @@ git config --global user.email "your_email@youremail.com"
 git remote add origin git@github.com:yourName/yourRepo.git
 ```
 
+xxx is not in the sudoers file. This incident will be reported的解决方法
+1/进入超级用户模式。 
+```
+sudo su root
+```
+2/给sudoers写权限。
+```
+chmod u+w /etc/sudoers
+```
+3/编辑sudoers文件，输入"i"进入编辑模式，找到这一行：  
+"root ALL=(ALL) ALL"
+在下面添加. 
+"xxx ALL=(ALL) ALL"(这里的xxx是你的用户名)，然后保存（就是先摁一 下Esc键，然后输入":wq"）退出。
+```
+vim /etc/sudoers
+```
+4/
+```
+chmod u-w /etc/sudoers
+```
 
+
+安装npm并替换为cnpm. 
+Centos   
+```
+yum install -y nodejs
+```
+验证安装成功
+```
+node -v 
+npm -v
+```
+替换淘宝源
+```
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+```
+
+安装模块
+```
+cnpm install [name]
+```
+安装gitbook
+```
+cnpm install gitbook-cli -g
+```
+启动服务
+```
+gitboook serve
+```
