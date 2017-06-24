@@ -59,7 +59,7 @@ chmod u+w /etc/sudoers
 ```
 vim /etc/sudoers
 ```
-4/
+4/»•µÙsudoers–¥»®œﬁ
 ```
 chmod u-w /etc/sudoers
 ```
