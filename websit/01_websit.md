@@ -1,5 +1,5 @@
 老司机  
-https://www.lsjss.xyz/#
+https://lsjss.xyz/
 
 天火藏书：  
 http://ebook.cdict.info/
