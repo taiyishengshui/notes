@@ -6,6 +6,8 @@ http://ss.ishadowx.com/
 
 https://pdf-lib.org/Home/Details/782
 
+https://doub.io/sszhfx/
+
 天火藏书：  
 http://ebook.cdict.info/
 
