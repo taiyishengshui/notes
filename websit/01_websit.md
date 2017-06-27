@@ -15,7 +15,7 @@ http://readfree.me/
 域名比价网站：  
 https://www.domcomp.com/
 
-go语言神经  
+go语言圣经  
 https://www.gitbook.com/book/wizardforcel/gopl-zh/details
 
 Begin js:  
