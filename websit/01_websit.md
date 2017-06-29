@@ -1,10 +1,10 @@
 SS账号：  
-http://ss.ishadowx.com/
-https://pdf-lib.org/Home/Details/782
-逗比SS
-https://doub.io/sszhfx/
-逗比云监控
-http://sstz.toyoo.ml/
+http://ss.ishadowx.com/  
+https://pdf-lib.org/Home/Details/782  
+逗比SS   
+https://doub.io/sszhfx/  
+逗比云监控  
+http://sstz.toyoo.ml/  
 
 天火藏书：  
 http://ebook.cdict.info/
@@ -27,5 +27,3 @@ https://developer.mozilla.org/zh-N/docs/Learn/JavaScript/Building_blocks
 雅虎前端优化35条军规  
 https://developer.yahoo.com/performance/rules.html  
 https://www.w3ctech.com/topic/1416
-
-
