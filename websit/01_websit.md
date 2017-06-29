@@ -18,6 +18,12 @@ https://www.domcomp.com/
 go语言圣经  
 https://www.gitbook.com/book/wizardforcel/gopl-zh/details
 
+鸟哥的linux私房菜  
+http://cn.linux.vbird.org/  
+
+linux性能调优指南  
+https://www.gitbook.com/book/lihz1990/transoflptg/details  
+
 JavaScript first steps  
 https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps
 
