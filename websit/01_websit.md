@@ -18,10 +18,10 @@ https://www.domcomp.com/
 go语言圣经  
 https://www.gitbook.com/book/wizardforcel/gopl-zh/details
 
-Begin js:  
+JavaScript first steps  
 https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps
 
-js programer struct:  
+JavaScript building blocks  
 https://developer.mozilla.org/zh-N/docs/Learn/JavaScript/Building_blocks
 
 雅虎前端优化35条军规  
