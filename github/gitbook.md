@@ -11,6 +11,7 @@ npm config get key
 npm config delete key
 npm set key valeu
 npm get key
-npm config ls -l
+nipm config ls -l
 
 ```
+如使用cnpm 请将命令替换成cnpm
